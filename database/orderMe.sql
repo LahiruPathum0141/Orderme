@@ -32,3 +32,7 @@ create table confirmOrder
     foreign key(CTelNo) references customer(TelNo),
     deviceId varchar(10),
     restaurent varchar(50));
+
+insert into partner values('lahirupathum0414@gmail.com','Food Paradise','0000','123'),
+('nadiw9811@gmail.com','Hotel Peradeniya','1000','123'),
+('e17405@eng.pdn.ac.lk','Kandyan Foods','2000','123');
